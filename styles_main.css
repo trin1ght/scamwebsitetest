@@ -1,0 +1,184 @@
+body {
+    background-image: url(discord_login_bg_edit.png);
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.grey_rectangle {
+    background-color: #313338;
+    margin-top: 120px;
+    margin-left: 280px;
+    height: 410px;
+    width: 790px;
+    display: block;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.wlcm {
+    position: absolute;
+    z-index: 2;
+    color: #f2f3f5;
+    font-size: 24px;
+    margin-left: 440px;
+    margin-top: 40px;
+}
+
+.xtd {
+    font-weight: 100;
+    position: absolute;
+    z-index: 2;
+    color: #adb1b8;
+    font-size: 16px;
+    margin-left: 405px;
+    margin-top: 80px;
+}
+
+.mail_pn {
+    font-size: 12px;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 2;
+    color: #bfc5cc;
+    margin-left: 310px;
+    margin-top: 120px;
+}
+
+.input_rectangle {
+    position: absolute;
+    z-index: 2;
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+    background-color: #1e1f22;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #f2f3f5;
+    outline: none;
+    margin-top: 145px;
+    margin-left: 310px;
+}
+
+.pw {
+    font-size: 12px;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 2;
+    color: #bfc5cc;
+    margin-left: 310px;
+    margin-top: 215px;
+}
+
+.red {
+    color: #fa777c;
+}
+
+.input_rectangle2 {
+    position: absolute;
+    z-index: 2;
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+    background-color: #1e1f22;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #f2f3f5;
+    outline: none;
+    margin-top: 237px;
+    margin-left: 310px;
+}
+
+.forgot_pw {
+    z-index: 2;
+    position: absolute;
+    font-size: 14px;
+    color: #00A8FC;
+    cursor: pointer;
+    margin-left: 312px;
+    margin-top: 285px;
+    text-decoration: none;
+}
+
+.forgot_pw:hover {
+    position: absolute;
+    font-size: 14px;
+    color: #00A8FC;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.log_in {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 310px;
+    margin-top: 320px;
+    width: 416px;
+    height: 44px;
+    background-color: #5865f2;
+    position: absolute;
+    z-index: 2;
+    color: #f2f3f5;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.log_in:hover {
+    transition: 0.2s ease;
+    background-color: #5865f2a9;
+}
+
+.acc {
+    font-weight: 100;
+    color: #949ba4;
+    margin-left: 312px;
+    margin-top: 375px;
+    position: absolute;
+    z-index: 2;
+}
+
+.blue {
+    font-weight: 100;
+    font-size: 14px;
+    color: #00A8FC;
+    cursor: pointer;
+    color: #00A8FC;
+    text-decoration: none;
+}
+
+.blue:hover {
+    text-decoration: underline;
+}
+
+.qr {
+    margin-left: 800px;
+    margin-top: 280px;
+    color: #f2f3f5;
+    font-size: 22px;
+    position: absolute;
+    z-index: 2;
+}
+
+.scan {
+    margin-top: 315px;
+    margin-left: 785px;
+    font-weight: 100;
+    color: #b5bac1;
+    position: absolute;
+    z-index: 2;
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.dc_qr {
+    position: absolute;
+    z-index: 2;
+    margin-left: 820px;
+    margin-top: -345px;
+    cursor: pointer;
+}
